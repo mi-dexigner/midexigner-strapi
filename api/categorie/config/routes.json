@@ -18,7 +18,7 @@
     },
     {
       "method": "GET",
-      "path": "/categories/:id",
+      "path": "/categories/:slug",
       "handler": "categorie.findOne",
       "config": {
         "policies": []

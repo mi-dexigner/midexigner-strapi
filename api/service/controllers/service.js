@@ -17,7 +17,7 @@
    async findOne(ctx) {
      const { slug } = ctx.params;
  
-     const entity = await strapi.services.posts.findOne({ slug });
-     return sanitizeEntity(entity, { model: strapi.models.posts });
+     const entity = await strapi.services.services.findOne({ slug });
+     return sanitizeEntity(entity, { model: strapi.models.services });
    },
  };

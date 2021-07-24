@@ -1,0 +1,77 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "name": "Homepage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sub_title": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "sub_title_2": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "button_URL": {
+      "type": "string"
+    },
+    "button_text": {
+      "type": "string"
+    },
+    "top_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "about_title": {
+      "type": "string"
+    },
+    "about_content": {
+      "type": "richtext"
+    },
+    "about_button_URL": {
+      "type": "string"
+    },
+    "About_button_text": {
+      "type": "string"
+    },
+    "about_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "service_title": {
+      "type": "string"
+    },
+    "service_content": {
+      "type": "richtext"
+    },
+    "service_button_URL": {
+      "type": "string"
+    },
+    "service_button_text": {
+      "type": "string"
+    }
+  }
+}
